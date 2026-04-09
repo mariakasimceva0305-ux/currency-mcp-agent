@@ -1,23 +1,18 @@
-# currency-mcp-agent
+# Currency MCP Agent
 
-Educational MCP-based currency assistant.
+[Русская версия](#ru) | [English version](#en)
 
-## Project Scope
+## RU
 
-Tool server and agent layer for exchange rate lookup and currency conversion.
+### О проекте
+MCP-ассистент для валютных операций: сервер инструментов + агентный слой оркестрации.
 
-## Repository Structure
+### Гипотезы
+1. MCP abstraction улучшает расширяемость.
+2. Разделение server/agent повышает модульность.
+3. Контейнеризация упрощает воспроизводимость.
 
-- `mcp_server/server.py`
-- `agent/agent.py`
-- `config/tools.json`
-- `tests/test_mcp_server.py`
-- `Dockerfile`
-- `docker-compose.yml`
+## EN
 
-## Implemented Functionality
-
-- exchange rate retrieval
-- amount conversion between currencies
-- available currency listing
-- agent-side invocation of MCP tools
+### Overview
+An MCP-based currency assistant with a tools server and an agent orchestration layer for conversion workflows.
